@@ -6,7 +6,7 @@ export default function Header({ cartCount, activeView, setActiveView }) {
     <header className="app-header">
       <button className="brand" onClick={() => setActiveView("restaurants")}>
         <Store size={24} />
-        <span>FoodFlow</span>
+        <span>FoodExpress</span>
       </button>
       <nav>
         <button className={activeView === "restaurants" ? "active" : ""} onClick={() => setActiveView("restaurants")}>

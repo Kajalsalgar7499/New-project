@@ -86,8 +86,8 @@ export default function App() {
           <>
             <section className="browse-toolbar">
               <div>
-                <p>Online food ordering</p>
-                <h1>Find meals and track every order</h1>
+                <p>FoodExpress ordering</p>
+                <h1>Order fresh meals from nearby restaurants</h1>
               </div>
               <input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Search restaurants or cuisines" />
             </section>
